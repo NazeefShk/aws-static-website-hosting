@@ -114,19 +114,19 @@ Accessed the website using the generated S3 Website Endpoint.
 
 ### Live Portfolio Website
 
-![Portfolio Website](website.png)
+![Portfolio Website](websitehomepage.png)
 
 ---
 
 ### S3 Bucket Objects
 
-![S3 Bucket](s3-bucket.png)
+![S3 Bucket](s-3-bucket.png)
 
 ---
 
 ### Static Website Hosting Configuration
 
-![Static Website Hosting](static-hosting.png)
+![Static Website Hosting](statichosting.png)
 
 ---
 
