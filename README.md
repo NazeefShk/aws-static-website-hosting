@@ -120,7 +120,7 @@ Accessed the website using the generated S3 Website Endpoint.
 
 ### S3 Bucket Objects
 
-![S3 Bucket](s3-bucket.png)
+![S3 Bucket](s3bucket.png)
 
 ---
 
