@@ -1,8 +1,16 @@
-# AWS Static Website Hosting
+# AWS S3 Portfolio Website
+
+A cloud-based portfolio website hosted using Amazon S3 Static Website Hosting. This project demonstrates fundamental AWS cloud concepts including storage management, static website deployment, access control configuration, and cloud-based hosting.
+
+---
 
 ## Project Overview
 
-This project demonstrates the deployment of a static website using Amazon S3. The website is hosted on AWS cloud infrastructure and configured for public access using S3 Static Website Hosting. The project showcases fundamental cloud computing concepts including storage management, access control, website deployment, and cloud-based hosting.
+This project showcases the deployment of a personal portfolio website on Amazon S3. The website was built using HTML and CSS and hosted using AWS S3 Static Website Hosting.
+
+The objective of this project was to gain practical experience with AWS cloud services, website deployment, storage management, and access control configuration.
+
+---
 
 ## Technologies Used
 
@@ -11,77 +19,197 @@ This project demonstrates the deployment of a static website using Amazon S3. Th
 * CSS3
 * AWS Management Console
 
-## Features
+---
 
-* Static website hosting using Amazon S3
-* Public website accessibility through S3 website endpoint
-* Bucket policy configuration for public access
-* Cloud-based content deployment
+## AWS Services Used
+
+### Amazon S3
+
+* Created and configured an S3 bucket
+* Uploaded website files
+* Enabled Static Website Hosting
+* Configured bucket policies
+* Managed public access settings
+
+---
+
+## Project Features
+
 * Responsive portfolio website
+* Cloud-based hosting
+* Public website accessibility
+* Static website deployment
+* AWS S3 bucket management
+* Access control configuration
 
-## Architecture
+---
+
+## Website Sections
+
+* About Me
+* Technical Skills
+* Experience
+* Projects
+* Education
+* Certifications
+* Contact Links
+
+---
+
+## Project Architecture
 
 ```text
 User Browser
       │
       ▼
-AWS S3 Website Endpoint
+S3 Website Endpoint
       │
       ▼
 Amazon S3 Bucket
  ├── index.html
- └── style.css
+ ├── style.css
+ └── assets
 ```
+
+---
 
 ## Implementation Steps
 
-1. Created an Amazon S3 bucket.
-2. Configured bucket settings for static website hosting.
-3. Uploaded website files (HTML and CSS).
-4. Disabled Block Public Access settings.
-5. Configured bucket policies to allow public read access.
-6. Enabled Static Website Hosting.
-7. Accessed the website through the generated S3 website endpoint.
+### Step 1 – Create S3 Bucket
 
-## Learning Outcomes
+Created an Amazon S3 bucket to store website files.
 
-* Understanding Amazon S3 storage services.
-* Configuring Static Website Hosting in AWS.
-* Managing bucket permissions and policies.
-* Deploying web applications to cloud infrastructure.
-* Implementing basic cloud security and access control concepts.
-* Working with AWS cloud management tools.
+### Step 2 – Upload Website Files
+
+Uploaded:
+
+* index.html
+* style.css
+
+to the S3 bucket.
+
+### Step 3 – Configure Static Website Hosting
+
+Enabled Static Website Hosting and specified:
+
+```text
+Index document: index.html
+```
+
+### Step 4 – Configure Public Access
+
+Disabled Block Public Access settings and configured permissions for website accessibility.
+
+### Step 5 – Configure Bucket Policy
+
+Added a bucket policy to allow public read access to website files.
+
+### Step 6 – Deploy Website
+
+Accessed the website using the generated S3 Website Endpoint.
+
+---
 
 ## Screenshots
 
-### AWS S3 Bucket
+### Live Portfolio Website
 
-Add screenshot here.
+![Portfolio Website](website.png)
+
+---
+
+### S3 Bucket Objects
+
+![S3 Bucket](s3-bucket.png)
+
+---
 
 ### Static Website Hosting Configuration
 
-Add screenshot here.
+![Static Website Hosting](static-hosting.png)
 
-### Live Website
+---
 
-Add screenshot here.
+## Skills Demonstrated
 
-## Future Enhancements
+### Cloud Computing
 
-* Configure a custom domain name.
-* Integrate Amazon CloudFront for content delivery.
-* Enable HTTPS using AWS services.
-* Implement CI/CD deployment using GitHub Actions.
-* Add monitoring and logging capabilities.
+* AWS Fundamentals
+* Cloud Storage
+* Static Website Deployment
+* Cloud Infrastructure Basics
+
+### AWS Services
+
+* Amazon S3
+* Static Website Hosting
+* Bucket Policies
+* Access Management
+
+### Web Technologies
+
+* HTML
+* CSS
+* Website Deployment
+
+### Security Concepts
+
+* Public Access Configuration
+* Bucket Policy Management
+* Access Control
+
+---
+
+## Learning Outcomes
+
+Through this project I learned:
+
+* How Amazon S3 works as a cloud storage service
+* How to deploy static websites using AWS
+* How to configure bucket permissions and policies
+* How to manage public website access
+* How cloud-based hosting differs from traditional hosting
+* Fundamental AWS deployment practices
+
+---
+
+## Future Improvements
+
+* Add a custom domain
+* Configure HTTPS using CloudFront
+* Implement CI/CD deployment using GitHub Actions
+* Add AWS Route 53 integration
+* Improve website UI/UX
+* Add monitoring and logging
+
+---
+
+## Repository Structure
+
+```text
+aws-s3-portfolio-website/
+│
+├── index.html
+├── style.css
+├── README.md
+├── website.png
+├── s3-bucket.png
+└── static-hosting.png
+```
+
+---
 
 ## Author
 
-**Nazeef Shaikh**
+### Nazeef Shaikh
 
 * LinkedIn: https://linkedin.com/in/nazeef10
 * GitHub: https://github.com/NazeefShk
 
+---
+
 ## Project Status
 
-Completed ✅
-Hosted on Amazon S3 using Static Website Hosting.
+✅ Completed
+
+Hosted successfully using Amazon S3 Static Website Hosting.
